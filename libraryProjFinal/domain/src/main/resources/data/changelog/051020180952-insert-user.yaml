@@ -1,0 +1,24 @@
+databaseChangeLog:
+- changeSet:
+      id: 2351
+      author: Dan T
+      comment: insert an user
+      changes:
+      - insert:
+            tableName: users
+            columns:
+            - column:
+                  name: name
+                  value: "Admin"
+            - column:
+                  name: last_name
+                  value: "User"
+            - column:
+                  name: active
+                  value: "1"
+            - column:
+                  name: email
+                  value: "admin@mail.ru"
+            - column:
+                    name: password
+                    value: "$2a$10$0fCA/eTQNch.3kLF03vK8u15tyR53Pj4kAM9JZFhwK4w7jGZFtK9W"

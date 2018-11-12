@@ -1,0 +1,16 @@
+databaseChangeLog:
+- changeSet:
+      id: 34343125333
+      author: Dan T
+      comment: insert roles
+      changes:
+      - insert:
+            tableName: role
+            columns:
+            - column:
+                  name: role_id
+                  value: "2"
+            - column:
+                  name: role
+                  value: "ROLE_USER"
+

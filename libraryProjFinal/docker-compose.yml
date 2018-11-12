@@ -1,0 +1,22 @@
+version: '3'
+services:
+   library-db:
+    image: postgres
+    environment:
+    - POSTGRES_USER=postgres
+    - POSTGRES_PASSWORD=postgres
+    - POSTGRES_DB=library
+    ports:
+    - 5433:5432
+    volumes:
+    - /home/java/pgdata:/var/lib/postgresql/data
+   library-web:
+     image: mrdantutunaru/library
+     environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://192.168.16.42:5433/library
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=postgres
+     ports:
+      - 8443:8443
+     depends_on:
+      - "library-db"

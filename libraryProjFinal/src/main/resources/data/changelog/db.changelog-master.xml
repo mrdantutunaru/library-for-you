@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+     <!--<include file="repository/changelog/051020180951-create-user.yaml"/>-->
+     <!--<include file="repository/changelog/051020180952-insert-user.yaml"/>-->
+     <!--<include file="repository/changelog/051020180953-create-book.yaml"/>-->
+     <!--<include file="repository/changelog/081020181103-create-role-table.yaml"/>-->
+
+     <!--<include file="repository/changelog/051020181044-create-user-role.yaml"/>-->
+
+     <!--<include file="repository/changelog/191020181658-add-composite-pk.yaml"/>-->
+     <!--<include file="repository/changelog/191020181710-add-uniqconstraint.yaml"/>-->
+
+     <!--<include file="repository/changelog/191020181718-add-konstraint-user.yaml"/>-->
+
+
+
+     <!--<include file="repository/changelog/051020181102-foreign-key-user-user-role.yaml"/>-->
+     <!--<include file="repository/changelog/051020181121-foreign-key-role-user-role.yaml"/>-->
+
+
+    <!--<include file="repository/changelog/221020180931-insert-roles.yaml"/>-->
+</databaseChangeLog>

@@ -1,0 +1,18 @@
+databaseChangeLog:
+- changeSet:
+      id: 4
+      author: dan
+      comment: insert a book
+      changes:
+      - insert:
+            tableName: books
+            columns:
+            - column:
+                  name: title
+                  value: "Pro Spring 5"
+            - column:
+                  name: gender
+                  value: "Tech"
+            - column:
+                  name: year
+                  value: "2017"

@@ -1,0 +1,10 @@
+databaseChangeLog:
+- changeSet:
+    id: 1651
+    author: Dan T
+    comment: create composite primary key
+    changes:
+    - addPrimaryKey:
+          columnNames: id_user, id_role
+          tableName: user_role
+

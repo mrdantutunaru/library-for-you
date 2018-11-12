@@ -1,0 +1,719 @@
+2018-11-09 21:11:21,400 INFO  [main] LibraryProjectApp: Starting LibraryProjectApp on DESKTOP-MBGUPHS with PID 632 (C:\Users\tutun\Downloads\libraryProjFinal\libraryProjFinal\web\target\classes started by tutun in C:\Users\tutun\Downloads\libraryProjFinal\libraryProjFinal)
+2018-11-09 21:11:21,436 DEBUG [main] LibraryProjectApp: Running with Spring Boot v1.5.16.RELEASE, Spring v4.3.19.RELEASE
+2018-11-09 21:11:21,436 INFO  [main] LibraryProjectApp: No active profile set, falling back to default profiles: default
+2018-11-09 21:11:22,128 DEBUG [background-preinit] logging: Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-11-09 21:11:40,359 INFO  [main] cluster: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-11-09 21:11:40,663 DEBUG [main] cluster: Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2018-11-09 21:11:40,987 INFO  [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] connection: Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017
+2018-11-09 21:11:40,988 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:11:41,147 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 4 to database admin on connection [connectionId{localValue:1, serverValue:2}] to server localhost:27017
+2018-11-09 21:11:41,165 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] command: Execution of command with request id 4 completed successfully in 146.66 ms on connection [connectionId{localValue:1, serverValue:2}] to server localhost:27017
+2018-11-09 21:11:41,171 INFO  [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] cluster: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=176424150}
+2018-11-09 21:11:41,724 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=176.4 ms, state=CONNECTED}]
+2018-11-09 21:11:42,282 INFO  [main] LibraryProjectApp: Started LibraryProjectApp in 23.728 seconds (JVM running for 28.506)
+2018-11-09 21:11:51,726 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:11:51,729 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 5 to database admin on connection [connectionId{localValue:1, serverValue:2}] to server localhost:27017
+2018-11-09 21:11:51,732 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] command: Execution of command with request id 5 completed successfully in 3.52 ms on connection [connectionId{localValue:1, serverValue:2}] to server localhost:27017
+2018-11-09 21:11:51,735 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=142.4 ms, state=CONNECTED}]
+2018-11-09 21:12:01,738 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:12:01,741 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 6 to database admin on connection [connectionId{localValue:1, serverValue:2}] to server localhost:27017
+2018-11-09 21:12:01,743 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] command: Execution of command with request id 6 completed successfully in 2.19 ms on connection [connectionId{localValue:1, serverValue:2}] to server localhost:27017
+2018-11-09 21:12:01,744 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=114.7 ms, state=CONNECTED}]
+2018-11-09 21:12:11,744 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:12:11,748 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 7 to database admin on connection [connectionId{localValue:1, serverValue:2}] to server localhost:27017
+2018-11-09 21:12:11,751 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] command: Execution of command with request id 7 completed successfully in 4.40 ms on connection [connectionId{localValue:1, serverValue:2}] to server localhost:27017
+2018-11-09 21:12:11,753 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=93.2 ms, state=CONNECTED}]
+2018-11-09 21:12:21,755 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:12:21,770 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 8 to database admin on connection [connectionId{localValue:1, serverValue:2}] to server localhost:27017
+2018-11-09 21:12:21,772 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] command: Execution of command with request id 8 completed successfully in 16.26 ms on connection [connectionId{localValue:1, serverValue:2}] to server localhost:27017
+2018-11-09 21:12:21,773 DEBUG [cluster-ClusterId{value='5be5dbece83267027827b5ef', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=78.1 ms, state=CONNECTED}]
+2018-11-09 21:15:08,534 INFO  [main] LibraryProjectApp: Starting LibraryProjectApp on DESKTOP-MBGUPHS with PID 6236 (C:\Users\tutun\Downloads\libraryProjFinal\libraryProjFinal\web\target\classes started by tutun in C:\Users\tutun\Downloads\libraryProjFinal\libraryProjFinal)
+2018-11-09 21:15:08,559 DEBUG [main] LibraryProjectApp: Running with Spring Boot v1.5.16.RELEASE, Spring v4.3.19.RELEASE
+2018-11-09 21:15:08,559 INFO  [main] LibraryProjectApp: No active profile set, falling back to default profiles: default
+2018-11-09 21:15:08,791 DEBUG [background-preinit] logging: Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-11-09 21:15:19,261 INFO  [main] cluster: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-11-09 21:15:19,324 DEBUG [main] cluster: Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2018-11-09 21:15:19,363 INFO  [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] connection: Opened connection [connectionId{localValue:1, serverValue:3}] to localhost:27017
+2018-11-09 21:15:19,363 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:15:19,401 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 4 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:15:19,403 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 4 completed successfully in 34.37 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:15:19,404 INFO  [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=39215393}
+2018-11-09 21:15:19,406 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=39.2 ms, state=CONNECTED}]
+2018-11-09 21:15:20,124 INFO  [main] LibraryProjectApp: Started LibraryProjectApp in 13.077 seconds (JVM running for 14.141)
+2018-11-09 21:15:29,407 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:15:29,408 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 5 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:15:29,409 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 5 completed successfully in 1.50 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:15:29,411 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=32.0 ms, state=CONNECTED}]
+2018-11-09 21:15:39,413 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:15:39,414 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 6 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:15:39,415 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 6 completed successfully in 1.28 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:15:39,416 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=26.0 ms, state=CONNECTED}]
+2018-11-09 21:15:49,418 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:15:49,423 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 7 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:15:49,426 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 7 completed successfully in 3.88 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:15:49,428 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=22.2 ms, state=CONNECTED}]
+2018-11-09 21:15:59,431 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:15:59,433 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 8 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:15:59,435 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 8 completed successfully in 2.42 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:15:59,436 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=18.6 ms, state=CONNECTED}]
+2018-11-09 21:16:09,436 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:16:09,437 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 9 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:16:09,438 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 9 completed successfully in 1.40 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:16:09,439 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=15.4 ms, state=CONNECTED}]
+2018-11-09 21:16:19,441 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:16:19,442 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 10 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:16:19,442 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 10 completed successfully in 1.01 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:16:19,443 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=12.6 ms, state=CONNECTED}]
+2018-11-09 21:16:29,445 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:16:29,446 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 11 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:16:29,447 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 11 completed successfully in 1.64 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:16:29,448 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=10.6 ms, state=CONNECTED}]
+2018-11-09 21:16:39,449 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:16:39,450 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 12 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:16:39,451 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 12 completed successfully in 1.14 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:16:39,451 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=8.9 ms, state=CONNECTED}]
+2018-11-09 21:16:49,453 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:16:49,455 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 13 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:16:49,458 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 13 completed successfully in 3.09 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:16:49,460 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=8.2 ms, state=CONNECTED}]
+2018-11-09 21:16:59,463 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:16:59,466 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 14 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:16:59,468 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 14 completed successfully in 3.00 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:16:59,470 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=7.6 ms, state=CONNECTED}]
+2018-11-09 21:17:09,472 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:17:09,475 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 15 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:17:09,477 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 15 completed successfully in 3.07 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:17:09,480 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=7.3 ms, state=CONNECTED}]
+2018-11-09 21:17:19,481 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:17:19,482 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 16 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:17:19,482 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 16 completed successfully in 0.97 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:17:19,483 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=6.1 ms, state=CONNECTED}]
+2018-11-09 21:17:29,484 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:17:29,486 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 17 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:17:29,489 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 17 completed successfully in 3.32 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:17:29,491 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=6.0 ms, state=CONNECTED}]
+2018-11-09 21:17:39,492 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:17:39,494 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 18 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:17:39,497 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 18 completed successfully in 3.22 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:17:39,500 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=6.0 ms, state=CONNECTED}]
+2018-11-09 21:17:49,503 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:17:49,503 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 19 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:17:49,505 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 19 completed successfully in 1.84 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:17:49,506 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=5.3 ms, state=CONNECTED}]
+2018-11-09 21:17:59,506 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:17:59,507 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 20 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:17:59,508 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 20 completed successfully in 1.26 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:17:59,509 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.6 ms, state=CONNECTED}]
+2018-11-09 21:18:09,510 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:18:09,512 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 21 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:18:09,515 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 21 completed successfully in 2.86 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:18:09,517 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.7 ms, state=CONNECTED}]
+2018-11-09 21:18:19,517 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:18:19,518 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 22 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:18:19,520 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 22 completed successfully in 2.05 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:18:19,522 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.5 ms, state=CONNECTED}]
+2018-11-09 21:18:29,524 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:18:29,526 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 23 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:18:29,529 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 23 completed successfully in 3.14 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:18:29,532 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.8 ms, state=CONNECTED}]
+2018-11-09 21:18:39,535 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:18:39,538 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 24 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:18:39,541 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 24 completed successfully in 3.22 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:18:39,543 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=5.0 ms, state=CONNECTED}]
+2018-11-09 21:18:49,545 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:18:49,548 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 25 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:18:49,550 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 25 completed successfully in 3.03 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:18:49,552 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=5.1 ms, state=CONNECTED}]
+2018-11-09 21:18:59,554 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:18:59,555 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 26 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:18:59,558 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 26 completed successfully in 2.84 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:18:59,560 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=5.0 ms, state=CONNECTED}]
+2018-11-09 21:19:09,561 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:19:09,563 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 27 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:19:09,567 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 27 completed successfully in 3.78 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:19:09,571 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=5.6 ms, state=CONNECTED}]
+2018-11-09 21:19:19,573 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:19:19,575 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 28 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:19:19,577 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 28 completed successfully in 2.13 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:19:19,578 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=5.3 ms, state=CONNECTED}]
+2018-11-09 21:19:29,580 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:19:29,582 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 29 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:19:29,584 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 29 completed successfully in 2.73 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:19:29,586 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=5.2 ms, state=CONNECTED}]
+2018-11-09 21:19:39,588 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:19:39,588 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 30 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:19:39,589 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 30 completed successfully in 0.87 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:19:39,590 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.5 ms, state=CONNECTED}]
+2018-11-09 21:19:49,590 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:19:49,590 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 31 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:19:49,591 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 31 completed successfully in 0.87 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:19:49,592 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.9 ms, state=CONNECTED}]
+2018-11-09 21:19:59,593 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:19:59,594 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 32 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:19:59,596 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 32 completed successfully in 1.84 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:19:59,597 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.7 ms, state=CONNECTED}]
+2018-11-09 21:20:09,599 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:20:09,599 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 33 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:20:09,600 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 33 completed successfully in 1.06 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:20:09,602 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.5 ms, state=CONNECTED}]
+2018-11-09 21:20:19,604 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:20:19,606 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 34 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:20:19,608 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 34 completed successfully in 1.80 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:20:19,608 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.4 ms, state=CONNECTED}]
+2018-11-09 21:20:29,609 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:20:29,613 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 35 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:20:29,615 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 35 completed successfully in 2.54 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:20:29,615 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.5 ms, state=CONNECTED}]
+2018-11-09 21:20:39,618 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:20:39,618 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 36 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:20:39,620 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 36 completed successfully in 1.16 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:20:39,620 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.3 ms, state=CONNECTED}]
+2018-11-09 21:20:49,621 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:20:49,623 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 37 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:20:49,625 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 37 completed successfully in 2.65 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:20:49,627 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.5 ms, state=CONNECTED}]
+2018-11-09 21:20:59,630 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:20:59,633 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 38 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:20:59,635 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 38 completed successfully in 2.85 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:20:59,637 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.8 ms, state=CONNECTED}]
+2018-11-09 21:21:09,639 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:21:09,640 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 39 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:21:09,640 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 39 completed successfully in 0.85 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:21:09,641 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.4 ms, state=CONNECTED}]
+2018-11-09 21:21:19,642 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:21:19,644 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 40 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:21:19,646 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 40 completed successfully in 2.59 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:21:19,648 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.6 ms, state=CONNECTED}]
+2018-11-09 21:21:29,650 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:21:29,652 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 41 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:21:29,656 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 41 completed successfully in 4.42 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:21:29,658 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.2 ms, state=CONNECTED}]
+2018-11-09 21:21:39,660 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:21:39,661 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 42 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:21:39,663 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 42 completed successfully in 1.83 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:21:39,664 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.0 ms, state=CONNECTED}]
+2018-11-09 21:21:49,665 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:21:49,667 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 43 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:21:49,670 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 43 completed successfully in 3.11 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:21:49,672 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.2 ms, state=CONNECTED}]
+2018-11-09 21:21:59,674 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:21:59,676 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 44 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:21:59,677 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 44 completed successfully in 1.94 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:21:59,679 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.1 ms, state=CONNECTED}]
+2018-11-09 21:22:09,680 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:22:09,681 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 45 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:22:09,686 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 45 completed successfully in 5.46 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:22:09,687 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.6 ms, state=CONNECTED}]
+2018-11-09 21:22:19,689 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:22:19,692 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 46 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:22:19,696 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 46 completed successfully in 4.47 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:22:19,697 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=5.0 ms, state=CONNECTED}]
+2018-11-09 21:22:29,698 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:22:29,701 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 47 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:22:29,705 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 47 completed successfully in 4.41 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:22:29,707 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=5.3 ms, state=CONNECTED}]
+2018-11-09 21:22:39,709 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:22:39,711 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 48 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:22:39,713 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 48 completed successfully in 2.75 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:22:39,715 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=5.2 ms, state=CONNECTED}]
+2018-11-09 21:22:49,717 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:22:49,718 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 49 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:22:49,718 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 49 completed successfully in 0.83 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:22:49,719 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.4 ms, state=CONNECTED}]
+2018-11-09 21:22:59,719 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:22:59,721 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 50 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:22:59,722 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 50 completed successfully in 2.15 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:22:59,724 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.3 ms, state=CONNECTED}]
+2018-11-09 21:23:09,726 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:23:09,728 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 51 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:23:09,730 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 51 completed successfully in 2.59 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:23:09,732 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.3 ms, state=CONNECTED}]
+2018-11-09 21:23:19,734 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:23:19,735 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 52 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:23:19,736 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 52 completed successfully in 1.06 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:23:19,736 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.8 ms, state=CONNECTED}]
+2018-11-09 21:23:29,739 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:23:29,740 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 53 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:23:29,741 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 53 completed successfully in 1.33 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:23:29,742 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.5 ms, state=CONNECTED}]
+2018-11-09 21:23:39,742 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:23:39,743 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 54 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:23:39,744 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 54 completed successfully in 1.55 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:23:39,745 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.3 ms, state=CONNECTED}]
+2018-11-09 21:23:49,748 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:23:49,750 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 55 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:23:49,752 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 55 completed successfully in 2.61 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:23:49,754 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.6 ms, state=CONNECTED}]
+2018-11-09 21:23:59,755 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:23:59,757 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 56 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:23:59,759 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 56 completed successfully in 2.31 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:23:59,761 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.7 ms, state=CONNECTED}]
+2018-11-09 21:24:09,761 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:24:09,763 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 57 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:24:09,766 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 57 completed successfully in 2.76 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:24:09,768 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.0 ms, state=CONNECTED}]
+2018-11-09 21:24:19,769 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:24:19,771 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 58 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:24:19,774 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 58 completed successfully in 2.93 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:24:19,776 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.2 ms, state=CONNECTED}]
+2018-11-09 21:24:29,776 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:24:29,777 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 59 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:24:29,779 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 59 completed successfully in 2.41 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:24:29,781 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.1 ms, state=CONNECTED}]
+2018-11-09 21:24:39,782 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:24:39,784 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 60 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:24:39,787 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 60 completed successfully in 2.95 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:24:39,789 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.4 ms, state=CONNECTED}]
+2018-11-09 21:24:49,790 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:24:49,792 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 61 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:24:49,794 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 61 completed successfully in 2.70 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:24:49,796 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.4 ms, state=CONNECTED}]
+2018-11-09 21:24:59,798 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:24:59,800 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 62 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:24:59,802 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 62 completed successfully in 2.84 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:24:59,804 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.5 ms, state=CONNECTED}]
+2018-11-09 21:25:09,805 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:25:09,807 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 63 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:25:09,809 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 63 completed successfully in 2.61 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:25:09,825 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.5 ms, state=CONNECTED}]
+2018-11-09 21:25:19,827 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:25:19,829 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 64 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:25:19,831 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 64 completed successfully in 2.53 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:25:19,833 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.5 ms, state=CONNECTED}]
+2018-11-09 21:25:29,834 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:25:29,835 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 65 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:25:29,837 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 65 completed successfully in 2.13 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:25:29,839 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.4 ms, state=CONNECTED}]
+2018-11-09 21:25:39,840 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:25:39,842 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 66 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:25:39,843 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 66 completed successfully in 1.44 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:25:39,844 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.1 ms, state=CONNECTED}]
+2018-11-09 21:25:49,844 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:25:49,846 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 67 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:25:49,849 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 67 completed successfully in 3.29 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:25:49,851 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.3 ms, state=CONNECTED}]
+2018-11-09 21:25:59,852 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:25:59,854 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 68 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:25:59,856 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 68 completed successfully in 2.67 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:25:59,859 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.4 ms, state=CONNECTED}]
+2018-11-09 21:26:09,861 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:26:09,862 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 69 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:26:09,865 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 69 completed successfully in 2.13 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:26:09,867 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.2 ms, state=CONNECTED}]
+2018-11-09 21:26:19,869 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:26:19,871 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 70 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:26:19,874 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 70 completed successfully in 2.65 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:26:19,876 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.4 ms, state=CONNECTED}]
+2018-11-09 21:26:29,877 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:26:29,879 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 71 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:26:29,882 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 71 completed successfully in 2.78 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:26:29,884 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.6 ms, state=CONNECTED}]
+2018-11-09 21:26:39,885 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:26:39,887 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 72 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:26:39,888 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 72 completed successfully in 1.43 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:26:39,889 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.2 ms, state=CONNECTED}]
+2018-11-09 21:26:49,891 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:26:49,893 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 73 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:26:49,895 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 73 completed successfully in 2.53 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:26:49,897 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.2 ms, state=CONNECTED}]
+2018-11-09 21:26:59,898 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:26:59,900 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 74 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:26:59,902 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 74 completed successfully in 2.73 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:26:59,904 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.3 ms, state=CONNECTED}]
+2018-11-09 21:27:09,906 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:27:09,907 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 75 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:27:09,908 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 75 completed successfully in 1.44 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:27:09,909 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.9 ms, state=CONNECTED}]
+2018-11-09 21:27:19,910 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:27:19,912 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 76 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:27:19,914 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 76 completed successfully in 2.35 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:27:19,916 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.0 ms, state=CONNECTED}]
+2018-11-09 21:27:29,918 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:27:29,918 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 77 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:27:29,919 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 77 completed successfully in 0.72 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:27:29,919 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.4 ms, state=CONNECTED}]
+2018-11-09 21:27:39,922 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:27:39,923 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 78 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:27:39,924 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 78 completed successfully in 1.16 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:27:39,925 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.1 ms, state=CONNECTED}]
+2018-11-09 21:27:49,925 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:27:49,926 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 79 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:27:49,927 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 79 completed successfully in 0.88 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:27:49,927 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2.8 ms, state=CONNECTED}]
+2018-11-09 21:27:59,929 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:27:59,929 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 80 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:27:59,931 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 80 completed successfully in 1.10 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:27:59,931 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2.7 ms, state=CONNECTED}]
+2018-11-09 21:28:09,932 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:28:09,933 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 81 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:28:09,933 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 81 completed successfully in 0.84 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:28:09,934 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2.4 ms, state=CONNECTED}]
+2018-11-09 21:28:19,935 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:28:19,936 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 82 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:28:19,936 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 82 completed successfully in 1.01 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:28:19,938 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2.4 ms, state=CONNECTED}]
+2018-11-09 21:28:29,939 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:28:29,941 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 83 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:28:29,943 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 83 completed successfully in 2.29 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:28:29,944 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2.7 ms, state=CONNECTED}]
+2018-11-09 21:28:39,947 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:28:39,949 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 84 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:28:39,951 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 84 completed successfully in 2.27 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:28:39,952 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2.9 ms, state=CONNECTED}]
+2018-11-09 21:28:49,954 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:28:49,956 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 85 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:28:49,958 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 85 completed successfully in 2.66 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:28:49,960 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.3 ms, state=CONNECTED}]
+2018-11-09 21:28:59,962 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:28:59,965 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 86 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:28:59,967 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 86 completed successfully in 1.96 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:28:59,968 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.4 ms, state=CONNECTED}]
+2018-11-09 21:29:09,968 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:29:09,969 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 87 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:29:09,971 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 87 completed successfully in 2.13 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:29:09,973 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.5 ms, state=CONNECTED}]
+2018-11-09 21:29:19,976 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:29:19,978 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 88 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:29:19,980 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 88 completed successfully in 2.73 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:29:19,981 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.7 ms, state=CONNECTED}]
+2018-11-09 21:29:29,983 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:29:29,985 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 89 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:29:29,988 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 89 completed successfully in 3.02 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:29:29,989 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.9 ms, state=CONNECTED}]
+2018-11-09 21:29:39,992 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:29:39,995 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 90 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:29:39,996 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 90 completed successfully in 1.74 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:29:39,997 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.7 ms, state=CONNECTED}]
+2018-11-09 21:29:49,999 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:29:50,001 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 91 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:29:50,003 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 91 completed successfully in 2.67 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:29:50,005 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.9 ms, state=CONNECTED}]
+2018-11-09 21:30:00,007 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:30:00,009 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 92 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:30:00,011 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 92 completed successfully in 2.76 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:30:00,014 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.2 ms, state=CONNECTED}]
+2018-11-09 21:30:10,016 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:30:10,017 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 93 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:30:10,018 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 93 completed successfully in 1.64 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:30:10,019 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.9 ms, state=CONNECTED}]
+2018-11-09 21:30:20,021 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:30:20,021 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 94 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:30:20,022 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 94 completed successfully in 0.86 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:30:20,023 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.4 ms, state=CONNECTED}]
+2018-11-09 21:30:30,024 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:30:30,026 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 95 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:30:30,028 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 95 completed successfully in 2.30 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:30:30,029 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.6 ms, state=CONNECTED}]
+2018-11-09 21:30:40,031 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:30:40,032 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 96 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:30:40,039 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 96 completed successfully in 7.58 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:30:40,040 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.5 ms, state=CONNECTED}]
+2018-11-09 21:30:50,040 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:30:50,041 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 97 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:30:50,042 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 97 completed successfully in 1.37 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:30:50,043 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.1 ms, state=CONNECTED}]
+2018-11-09 21:31:00,044 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:31:00,045 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 98 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:31:00,046 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 98 completed successfully in 1.38 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:31:00,047 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.8 ms, state=CONNECTED}]
+2018-11-09 21:31:10,050 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:31:10,052 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 99 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:31:10,055 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 99 completed successfully in 2.61 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:31:10,057 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.9 ms, state=CONNECTED}]
+2018-11-09 21:31:20,059 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Checking status of localhost:27017
+2018-11-09 21:31:20,061 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Sending command '{ "ismaster" : 1, "$db" : "admin" }' with request id 100 to database admin on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:31:20,063 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] command: Execution of command with request id 100 completed successfully in 2.33 ms on connection [connectionId{localValue:1, serverValue:3}] to server localhost:27017
+2018-11-09 21:31:20,065 DEBUG [cluster-ClusterId{value='5be5dcc7e83267185c4ebca0', description='null'}-localhost:27017] cluster: Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.0 ms, state=CONNECTED}]
+2018-11-09 21:33:02,596 INFO  [main] LibraryProjectApp: Starting LibraryProjectApp on DESKTOP-MBGUPHS with PID 1948 (C:\Users\tutun\Downloads\libraryProjFinal\libraryProjFinal\web\target\classes started by tutun in C:\Users\tutun\Downloads\libraryProjFinal\libraryProjFinal)
+2018-11-09 21:33:02,602 DEBUG [main] LibraryProjectApp: Running with Spring Boot v1.5.16.RELEASE, Spring v4.3.19.RELEASE
+2018-11-09 21:33:02,603 INFO  [main] LibraryProjectApp: No active profile set, falling back to default profiles: default
+2018-11-09 21:33:02,938 DEBUG [background-preinit] logging: Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-11-09 21:33:12,986 INFO  [main] LibraryProjectApp: Started LibraryProjectApp in 11.98 seconds (JVM running for 13.035)
+2018-11-09 21:39:30,583 WARN  [http-nio-8443-exec-7] DefaultHandlerExceptionResolver: Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'book' on field 'isbn': rejected value [43242321331]; codes [typeMismatch.book.isbn,typeMismatch.isbn,typeMismatch.int,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [book.isbn,isbn]; arguments []; default message [isbn]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'int' for property 'isbn'; nested exception is java.lang.NumberFormatException: For input string: "43242321331"]]
+2018-11-09 21:45:26,926 INFO  [main] LibraryProjectApp: Starting LibraryProjectApp on DESKTOP-MBGUPHS with PID 8856 (C:\Users\tutun\Downloads\libraryProjFinal\libraryProjFinal\web\target\classes started by tutun in C:\Users\tutun\Downloads\libraryProjFinal\libraryProjFinal)
+2018-11-09 21:45:26,929 DEBUG [main] LibraryProjectApp: Running with Spring Boot v1.5.16.RELEASE, Spring v4.3.19.RELEASE
+2018-11-09 21:45:26,929 INFO  [main] LibraryProjectApp: No active profile set, falling back to default profiles: default
+2018-11-09 21:45:27,202 DEBUG [background-preinit] logging: Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-11-09 21:45:39,241 INFO  [main] LibraryProjectApp: Started LibraryProjectApp in 13.851 seconds (JVM running for 14.968)
+2018-11-09 21:59:45,597 WARN  [http-nio-8443-exec-5] DefaultHandlerExceptionResolver: Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "swagger-ui"]
+2018-11-09 22:01:29,901 INFO  [main] LibraryProjectApp: Starting LibraryProjectApp on DESKTOP-MBGUPHS with PID 10428 (C:\Users\tutun\Downloads\libraryProjFinal\libraryProjFinal\web\target\classes started by tutun in C:\Users\tutun\Downloads\libraryProjFinal\libraryProjFinal)
+2018-11-09 22:01:29,901 DEBUG [main] LibraryProjectApp: Running with Spring Boot v1.5.16.RELEASE, Spring v4.3.19.RELEASE
+2018-11-09 22:01:29,901 INFO  [main] LibraryProjectApp: No active profile set, falling back to default profiles: default
+2018-11-09 22:01:30,187 DEBUG [background-preinit] logging: Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-11-09 22:01:42,371 INFO  [main] LibraryProjectApp: Started LibraryProjectApp in 13.801 seconds (JVM running for 15.321)
+2018-11-09 22:08:20,858 WARN  [http-nio-8443-exec-5] DefaultHandlerExceptionResolver: Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "swagger-ui"]
+2018-11-09 22:09:29,231 INFO  [main] LibraryProjectApp: Starting LibraryProjectApp on DESKTOP-MBGUPHS with PID 15340 (C:\Users\tutun\Downloads\libraryProjFinal\libraryProjFinal\web\target\classes started by tutun in C:\Users\tutun\Downloads\libraryProjFinal\libraryProjFinal)
+2018-11-09 22:09:29,233 DEBUG [main] LibraryProjectApp: Running with Spring Boot v1.5.16.RELEASE, Spring v4.3.19.RELEASE
+2018-11-09 22:09:29,233 INFO  [main] LibraryProjectApp: No active profile set, falling back to default profiles: default
+2018-11-09 22:09:29,437 DEBUG [background-preinit] logging: Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-11-09 22:09:39,997 INFO  [main] LibraryProjectApp: Started LibraryProjectApp in 12.076 seconds (JVM running for 13.109)
+2018-11-09 23:48:44,699 ERROR [http-nio-8443-exec-9] TemplateEngine: [THYMELEAF][http-nio-8443-exec-9] Exception processing template "books": Error retrieving value for property "principal.authorities" of authentication object of class org.springframework.security.authentication.AnonymousAuthenticationToken (layout/header:33)
+2018-11-09 23:48:44,798 ERROR [http-nio-8443-exec-9] [dispatcherServlet]: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Error retrieving value for property "principal.authorities" of authentication object of class org.springframework.security.authentication.AnonymousAuthenticationToken (layout/header:33)] with root cause
+org.springframework.beans.NotReadablePropertyException: Invalid property 'principal.authorities' of bean class [org.springframework.security.authentication.AnonymousAuthenticationToken]: Bean property 'principal.authorities' is not readable or has an invalid getter method: Does the return type of the getter match the parameter type of the setter?
+	at org.springframework.beans.AbstractNestablePropertyAccessor.getPropertyValue(AbstractNestablePropertyAccessor.java:631)
+	at org.springframework.beans.AbstractNestablePropertyAccessor.getPropertyValue(AbstractNestablePropertyAccessor.java:622)
+	at org.thymeleaf.extras.springsecurity4.auth.AuthUtils.getAuthenticationProperty(AuthUtils.java:140)
+	at org.thymeleaf.extras.springsecurity4.dialect.processor.AuthenticationAttrProcessor.getText(AuthenticationAttrProcessor.java:71)
+	at org.thymeleaf.processor.attr.AbstractTextChildModifierAttrProcessor.getModifiedChildren(AbstractTextChildModifierAttrProcessor.java:59)
+	at org.thymeleaf.processor.attr.AbstractChildrenModifierAttrProcessor.processAttribute(AbstractChildrenModifierAttrProcessor.java:59)
+	at org.thymeleaf.processor.attr.AbstractAttrProcessor.doProcess(AbstractAttrProcessor.java:87)
+	at org.thymeleaf.processor.AbstractProcessor.process(AbstractProcessor.java:212)
+	at org.thymeleaf.dom.Node.applyNextProcessor(Node.java:1017)
+	at org.thymeleaf.dom.Node.processNode(Node.java:972)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.Document.process(Document.java:93)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1155)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doFilter(AbstractPreAuthenticatedProcessingFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-09 23:48:47,238 ERROR [http-nio-8443-exec-1] TemplateEngine: [THYMELEAF][http-nio-8443-exec-1] Exception processing template "books": Error retrieving value for property "principal.authorities" of authentication object of class org.springframework.security.authentication.AnonymousAuthenticationToken (layout/header:33)
+2018-11-09 23:48:47,238 ERROR [http-nio-8443-exec-1] [dispatcherServlet]: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Error retrieving value for property "principal.authorities" of authentication object of class org.springframework.security.authentication.AnonymousAuthenticationToken (layout/header:33)] with root cause
+org.springframework.beans.NotReadablePropertyException: Invalid property 'principal.authorities' of bean class [org.springframework.security.authentication.AnonymousAuthenticationToken]: Bean property 'principal.authorities' is not readable or has an invalid getter method: Does the return type of the getter match the parameter type of the setter?
+	at org.springframework.beans.AbstractNestablePropertyAccessor.getPropertyValue(AbstractNestablePropertyAccessor.java:631)
+	at org.springframework.beans.AbstractNestablePropertyAccessor.getPropertyValue(AbstractNestablePropertyAccessor.java:622)
+	at org.thymeleaf.extras.springsecurity4.auth.AuthUtils.getAuthenticationProperty(AuthUtils.java:140)
+	at org.thymeleaf.extras.springsecurity4.dialect.processor.AuthenticationAttrProcessor.getText(AuthenticationAttrProcessor.java:71)
+	at org.thymeleaf.processor.attr.AbstractTextChildModifierAttrProcessor.getModifiedChildren(AbstractTextChildModifierAttrProcessor.java:59)
+	at org.thymeleaf.processor.attr.AbstractChildrenModifierAttrProcessor.processAttribute(AbstractChildrenModifierAttrProcessor.java:59)
+	at org.thymeleaf.processor.attr.AbstractAttrProcessor.doProcess(AbstractAttrProcessor.java:87)
+	at org.thymeleaf.processor.AbstractProcessor.process(AbstractProcessor.java:212)
+	at org.thymeleaf.dom.Node.applyNextProcessor(Node.java:1017)
+	at org.thymeleaf.dom.Node.processNode(Node.java:972)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.Document.process(Document.java:93)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1155)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doFilter(AbstractPreAuthenticatedProcessingFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-09 23:49:51,950 INFO  [main] LibraryProjectApp: Starting LibraryProjectApp on DESKTOP-MBGUPHS with PID 9968 (C:\Users\tutun\Downloads\libraryProjFinal\libraryProjFinal\web\target\classes started by tutun in C:\Users\tutun\Downloads\libraryProjFinal\libraryProjFinal)
+2018-11-09 23:49:51,950 DEBUG [main] LibraryProjectApp: Running with Spring Boot v1.5.16.RELEASE, Spring v4.3.19.RELEASE
+2018-11-09 23:49:51,950 INFO  [main] LibraryProjectApp: No active profile set, falling back to default profiles: default
+2018-11-09 23:49:52,350 DEBUG [background-preinit] logging: Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-11-09 23:50:04,770 INFO  [main] LibraryProjectApp: Started LibraryProjectApp in 14.88 seconds (JVM running for 17.079)

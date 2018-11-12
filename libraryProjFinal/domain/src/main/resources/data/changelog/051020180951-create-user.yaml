@@ -1,0 +1,45 @@
+databaseChangeLog:
+- changeSet:
+      id: 1b
+      author: Dan T
+      comment: create table users
+      changes:
+      - createTable:
+            tableName: users
+            columns:
+            - column:
+                  name: user_id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                  - primaryKeyName: user_id_pk
+                  - primaryKey: true
+                  - nullable: false
+            - column:
+                  name: name
+                  type: varchar(50)
+                  constraints:
+                      nullable: false
+            - column:
+                  name: last_name
+                  type: varchar(50)
+                  constraints:
+                      nullable: false
+            - column:
+                  name: active
+                  type: int
+                  constraints:
+                      nullable: false
+            - column:
+                  name: email
+                  type: varchar(50)
+                  constraints:
+                     nullable: false
+            - column:
+                  name: password
+                  type: varchar(80)
+                  constraints:
+                     nullable: false
+
+
+

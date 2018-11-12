@@ -1,0 +1,11 @@
+databaseChangeLog:
+- changeSet:
+    id: 165767
+    author: Dan T
+    comment: create composite primary key
+    changes:
+    - addUniqueConstraint:
+        columnNames: user_id
+        constraintName: user_id_pk_new
+        tableName: user
+

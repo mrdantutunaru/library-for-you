@@ -1,0 +1,24 @@
+databaseChangeLog:
+- changeSet:
+      id: role-user
+      author: Dan T
+      comment: create user role role
+      changes:
+      - createTable:
+            tableName: user_role
+            columns:
+            - column:
+                    name: user_id
+                    type: int
+                    constraints:
+                    - nullable: false
+            - column:
+                    name: role_id
+                    type: int
+                    constraints:
+                    - nullable: false
+
+
+
+
+
