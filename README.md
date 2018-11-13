@@ -19,4 +19,5 @@ An automated system to manage a public library. Everything is devided in modules
 - Certificates
 
 Run the LibraryProjectApp from web module for starting the server.
-For client side run LibraryclientApplication . Don't forget to change ports, db credentials etc. Hope you enjoy, you can pm me on my skype: van_dannu.
+For client side run LibraryclientApplication . Don't forget to change ports, db credentials etc. Hope you enjoy, you can pm me on my skype: van_dannu. 
+
