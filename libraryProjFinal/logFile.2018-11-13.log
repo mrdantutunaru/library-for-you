@@ -90,3 +90,8 @@
 2018-11-13 11:07:30,445 INFO  [main] LibraryProjectApp: No active profile set, falling back to default profiles: default
 2018-11-13 11:07:30,729 DEBUG [background-preinit] logging: Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
 2018-11-13 11:07:39,202 INFO  [main] LibraryProjectApp: Started LibraryProjectApp in 10.14 seconds (JVM running for 11.235)
+2018-11-13 12:17:59,615 INFO  [main] LibraryProjectApp: Starting LibraryProjectApp on java-Inspiron-3543 with PID 31349 (/home/java/Downloads/libraryProjFinal/libraryProjFinal/web/target/classes started by java in /home/java/Downloads/libraryProjFinal/libraryProjFinal)
+2018-11-13 12:17:59,669 DEBUG [main] LibraryProjectApp: Running with Spring Boot v1.5.16.RELEASE, Spring v4.3.19.RELEASE
+2018-11-13 12:17:59,669 INFO  [main] LibraryProjectApp: No active profile set, falling back to default profiles: default
+2018-11-13 12:17:59,959 DEBUG [background-preinit] logging: Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-11-13 12:18:07,233 INFO  [main] LibraryProjectApp: Started LibraryProjectApp in 8.808 seconds (JVM running for 9.604)
