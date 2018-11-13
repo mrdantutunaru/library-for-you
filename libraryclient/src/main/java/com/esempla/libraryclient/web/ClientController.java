@@ -87,11 +87,11 @@ public class ClientController {
         return receivedJSONobjectCreated;
     }
 
-//    @ResponseStatus(HttpStatus.ACCEPTED)
-//    @PutMapping(value = "/updateBook")
-//    public JSONObject update(@RequestBody String simpleJson) throws Exception {
-//        return createBook(simpleJson);
-//    }
+    @ResponseStatus(HttpStatus.ACCEPTED)
+    @PutMapping(value = "/updateBook")
+    public JSONObject update(@RequestBody String simpleJson) throws Exception {
+        return createBook(simpleJson);
+    }
 
 
 }

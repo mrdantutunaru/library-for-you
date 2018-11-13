@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Configuration;
 public class MyConfig {
     @Bean
     public BasicAuthRequestInterceptor basicAuthRequestInterceptor() {
+
         return new BasicAuthRequestInterceptor("admin@mail.ru", "dan123");
     }
 }
