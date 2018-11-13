@@ -13,6 +13,7 @@ An automated system to manage a public library. Everything is devided in modules
 - Mongo DB
 - JPA
 - DTO
+- Logging
 - Liquibase
 - Thyemeleaf
 - HTML
