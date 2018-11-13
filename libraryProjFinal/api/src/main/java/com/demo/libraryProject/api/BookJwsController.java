@@ -79,6 +79,7 @@ public class BookJwsController {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         return signedJson;
     }
 }

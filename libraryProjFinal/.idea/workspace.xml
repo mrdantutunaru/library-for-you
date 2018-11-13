@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85cec294-26b5-4a3c-b125-33ade5817c70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/demo/libraryProject/api/BookControllerRestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/demo/libraryProject/api/BookControllerRestApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/demo/libraryProject/api/BookJwsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/demo/libraryProject/api/BookJwsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/demo/libraryProject/api/JWSUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/demo/libraryProject/api/JWSUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/demo/libraryProject/config/DomainConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/demo/libraryProject/config/DomainConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/demo/libraryProject/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/demo/libraryProject/domain/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/demo/libraryProject/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/demo/libraryProject/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/demo/libraryProject/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/demo/libraryProject/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/demo/libraryProject/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/demo/libraryProject/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/demo/libraryProject/utils/BookNameValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/demo/libraryProject/utils/BookNameValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/demo/libraryProject/LibraryProjectApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/demo/libraryProject/LibraryProjectApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/demo/libraryProject/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/demo/libraryProject/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/demo/libraryProject/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/demo/libraryProject/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/demo/libraryProject/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/demo/libraryProject/config/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/demo/libraryProject/web/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/demo/libraryProject/web/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/demo/libraryProject/web/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/demo/libraryProject/web/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/demo/libraryProject/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/demo/libraryProject/web/UserController.java" afterDir="false" />
-    </list>
+    <list default="true" id="85cec294-26b5-4a3c-b125-33ade5817c70" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/domain/target/" />
     <ignored path="$PROJECT_DIR$/api/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -414,7 +397,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542102646157" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542103753431" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -469,16 +452,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542091967798</updated>
-      <workItem from="1542091972052" duration="7969000" />
+      <workItem from="1542091972052" duration="8525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7969000" />
+    <option name="totallyTimeSpent" value="8525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-2" width="1920" height="1082" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
