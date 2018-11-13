@@ -4,6 +4,7 @@ An automated system to manage a public library. Everything is devided in modules
 - Spring Boot 2.0
 - Spring Security
 - Swagger 2
+- Docker
 - Lombok/Slf4j
 - JSON
 - Encoding/Decoding (JWS)
