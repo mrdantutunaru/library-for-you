@@ -25,10 +25,8 @@ import java.util.Map;
 @Api(value = "library", description = "Operations that are part of BookJws Controller")
 public class BookJwsController {
 
-    private final BookControllerRestApi bookControllerRestApi;
-
     public final JWSUtil jwsUtil;
-
+    private final BookControllerRestApi bookControllerRestApi;
 
     @GetMapping("")
     @ApiOperation(value = "View jws for retrieved books", response = Iterable.class)
@@ -38,44 +36,48 @@ public class BookJwsController {
             @ApiResponse(code = 403, message = "The resource is forbidden."),
             @ApiResponse(code = 404, message = "The resource is not found.")
     })
-    public String getListBooksJson(){
+    public String getListBooksJson() {
         String signedJson = null;
-        try{
+        try {
             ObjectMapper mapper = new ObjectMapper();
             List<BookDto> bookList = bookControllerRestApi.getAllBooks();
-            List<Map<String,Object>> mapList = mapper.convertValue(bookList, new TypeReference<List<Map<String, Object>>>(){});
-            JSONArray jsonArray =new JSONArray();
+            List<Map<String, Object>> mapList = mapper.convertValue(bookList, new TypeReference<List<Map<String, Object>>>() {
+            });
+            JSONArray jsonArray = new JSONArray();
             jsonArray.addAll(mapList);
             JSONObject object = new JSONObject();
             object.put("bookList", jsonArray);
             signedJson = jwsUtil.signServer(object);
-    } catch (Exception e){
-        e.printStackTrace();}
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return signedJson;
     }
 
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping(value = "")
     @ApiOperation(value = "Add book to the library.", response = Iterable.class)
-    public String addBook(@RequestBody String encodedJson) throws Exception{
+    public String addBook(@RequestBody String encodedJson) throws Exception {
         String signedJson = null;
         JSONObject jsonObject = jwsUtil.serializeJWSObjectServer(encodedJson);
         ObjectMapper mapper = new ObjectMapper();
         BookDto bookDto = null;
-        try{
-            bookDto = mapper.readValue(jsonObject.toJSONString(), new TypeReference<BookDto>(){});
-        } catch (IOException e ) {
+        try {
+            bookDto = mapper.readValue(jsonObject.toJSONString(), new TypeReference<BookDto>() {
+            });
+        } catch (IOException e) {
             e.printStackTrace();
         }
         BookDto bookCreated = bookControllerRestApi.addBook(bookDto);
 
         Map<String, Object> map = mapper.convertValue(bookCreated,
-                new TypeReference<Map<String, Object>>(){});
+                new TypeReference<Map<String, Object>>() {
+                });
         JSONObject object = new JSONObject(map);
         try {
             signedJson = jwsUtil.signServer(object);
-        }catch (Exception e){
-           e.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
         return signedJson;
     }

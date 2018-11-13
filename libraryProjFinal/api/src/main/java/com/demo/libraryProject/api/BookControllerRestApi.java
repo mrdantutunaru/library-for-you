@@ -16,6 +16,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+
 import javax.annotation.security.RolesAllowed;
 import java.net.URI;
 import java.text.ParseException;
@@ -47,7 +48,7 @@ public class BookControllerRestApi {
             @ApiResponse(code = 403, message = "The resource is forbidden."),
             @ApiResponse(code = 404, message = "The resource is not found.")
     })
-    public List<BookDto> getAllBooks(){
+    public List<BookDto> getAllBooks() {
 
         return bookRepository.findAll()
                 .stream().map(book -> convertToDto(book))
@@ -65,12 +66,11 @@ public class BookControllerRestApi {
             @ApiResponse(code = 500, message = "Internal server error. The resource is not found.")
     })
     @ResponseBody
-    public BookDto getBook(@PathVariable int id)
-    {
+    public BookDto getBook(@PathVariable int id) {
         Book book = bookRepository.findOne(id);
-        if (book==null)
+        if (book == null)
             throw new NoSuchBookException();
-        return  convertToDto(book);
+        return convertToDto(book);
     }
 
     @Secured("ROLE_ADMIN")
@@ -86,7 +86,7 @@ public class BookControllerRestApi {
     })
     public void deleteBook(@PathVariable int id) {
         Book book = bookRepository.findOne(id);
-        if (book==null)
+        if (book == null)
             throw new NoSuchBookToDeleteException();
         bookRepository.delete(id);
     }
@@ -94,7 +94,7 @@ public class BookControllerRestApi {
     @Secured("ROLE_ADMIN")
     @PostMapping("")
     @ApiOperation(value = "Add a book to the library.", response = Iterable.class)
-    public BookDto addBook(@RequestBody BookDto bookDto) throws Exception{
+    public BookDto addBook(@RequestBody BookDto bookDto) throws Exception {
         Book book = convertToEntity(bookDto);
         Book bookCreated = bookRepository.save(book);
         return convertToDto(bookCreated);
@@ -125,6 +125,7 @@ public class BookControllerRestApi {
         BookDto bookDto = modelMapper.map(book, BookDto.class);
         return bookDto;
     }
+
     private Book convertToEntity(BookDto personDto) throws ParseException {
 
         Book book = modelMapper.map(personDto, Book.class);

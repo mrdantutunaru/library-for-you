@@ -32,7 +32,7 @@ public class JWSUtil {
     //For Server
     public String signServer(JSONObject object) throws Exception {
         RSAPrivateKey privateKey = getServerRSAPrivatKey();
-        RSAPublicKey publicKey   = getServerRSADefaultPublicKey();
+        RSAPublicKey publicKey = getServerRSADefaultPublicKey();
         JWSSigner signer = new RSASSASigner(privateKey);
         JWSObject jwsObject = new JWSObject(
                 new JWSHeader.Builder(JWSAlgorithm.RS256).keyID(serverAlias).build(),
@@ -41,7 +41,7 @@ public class JWSUtil {
         String s = jwsObject.serialize();
         jwsObject = JWSObject.parse(s);
         JWSVerifier verifier = new RSASSAVerifier(publicKey);
-        if (jwsObject.verify(verifier)){
+        if (jwsObject.verify(verifier)) {
             return s;
         }
         throw new JWSException("Could not verificate object signature");
@@ -53,43 +53,43 @@ public class JWSUtil {
             RSAPublicKey publicKey = getClientPublicKey();
             JWSObject parse = JWSObject.parse(json);
             JWSVerifier verifier = new RSASSAVerifier(publicKey);
-            if (parse.verify(verifier)){
+            if (parse.verify(verifier)) {
                 return parse.getPayload().toJSONObject();
-            }else
+            } else
                 throw new JWSException(
                         String.format("Could not validate certificate signature with alias %s", serverAlias));
-        }catch (Exception e){
+        } catch (Exception e) {
             throw new JWSException(
                     String.format("Could not find certificate with alias %s", serverAlias));
         }
     }
 
-    private RSAPublicKey getClientPublicKey(){
+    private RSAPublicKey getClientPublicKey() {
         try {
             KeyStore keystore = getServerKeyStore();
-            return (RSAPublicKey)keystore.getCertificate(clientAlias).getPublicKey();
-        }catch (Exception e){
+            return (RSAPublicKey) keystore.getCertificate(clientAlias).getPublicKey();
+        } catch (Exception e) {
             log.error(e.getMessage());
             return null;
         }
     }
 
-    private RSAPublicKey getServerRSADefaultPublicKey(){
+    private RSAPublicKey getServerRSADefaultPublicKey() {
         try {
             KeyStore keystore = getServerKeyStore();
-            return (RSAPublicKey)keystore.getCertificate(serverAlias).getPublicKey();
-        }catch (Exception e){
+            return (RSAPublicKey) keystore.getCertificate(serverAlias).getPublicKey();
+        } catch (Exception e) {
             log.error(e.getMessage());
             return null;
         }
     }
 
-    private KeyStore getServerKeyStore(){
+    private KeyStore getServerKeyStore() {
         try {
             KeyStore keystore = KeyStore.getInstance(KeyStore.getDefaultType());
             keystore.load(serverKeyStore.getInputStream(), password.toCharArray());
             return keystore;
-        }catch (Exception e){
+        } catch (Exception e) {
             throw new JWSException(e.getMessage());
         }
 
@@ -99,7 +99,7 @@ public class JWSUtil {
         try {
             KeyStore keystore = getServerKeyStore();
             return (RSAPrivateKey) keystore.getKey(serverAlias, password.toCharArray());
-        }catch (Exception e){
+        } catch (Exception e) {
             throw new JWSException(e.getMessage());
         }
     }

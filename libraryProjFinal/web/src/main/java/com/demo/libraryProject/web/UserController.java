@@ -1,6 +1,5 @@
 package com.demo.libraryProject.web;
 
-import com.demo.libraryProject.domain.User;
 import com.demo.libraryProject.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;

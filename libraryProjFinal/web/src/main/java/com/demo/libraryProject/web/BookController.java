@@ -21,10 +21,11 @@ public class BookController {
     @Autowired
     private BookService bookService;
 
-    public BookController (BookService bookService) {
+    public BookController(BookService bookService) {
 
-        this.bookService=bookService;
-    };
+        this.bookService = bookService;
+    }
+
 
     @RolesAllowed({"ROLE_ADMIN", "ROLE_USER"})
     @RequestMapping(path = "/")
@@ -42,17 +43,17 @@ public class BookController {
 
     @RolesAllowed({"ROLE_ADMIN", "ROLE_USER"})
     @RequestMapping(path = "/books", method = RequestMethod.POST)
-    public String addPageBook(@ModelAttribute Book book, Model model,BindingResult result) {
+    public String addPageBook(@ModelAttribute Book book, Model model, BindingResult result) {
 //        BookNameValidator bookNameValidator = new BookNameValidator();
 //        bookNameValidator.validate(book,result);
 //        if (result.hasErrors()){
 //            return "edit";
 //        }
- //       else {
-            bookService.saveBook(book);
-            model.addAttribute("books", bookService.getAllBooks());
-            return "books";
-       // }
+        //       else {
+        bookService.saveBook(book);
+        model.addAttribute("books", bookService.getAllBooks());
+        return "books";
+        // }
     }
 
     @RolesAllowed({"ROLE_ADMIN", "ROLE_USER"})
@@ -66,7 +67,7 @@ public class BookController {
     @RequestMapping(path = "/books/edit/{id}", method = RequestMethod.GET)
     public String editProduct(Model model, @PathVariable(value = "id") int id) {
         Book book = bookService.findOne(id);
-        if(book==null) throw new NoSuchBookException();
+        if (book == null) throw new NoSuchBookException();
         model.addAttribute("book", book);
         return "edit";
     }

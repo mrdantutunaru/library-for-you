@@ -15,7 +15,7 @@ public class BookNameValidator implements Validator {
         Book book = (Book) obj;
         String title = book.getTitle();
 
-        if (title==null) {
+        if (title == null) {
             errors.rejectValue("title", REQUIRED, REQUIRED);
         }
     }

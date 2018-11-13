@@ -33,16 +33,16 @@ public class LoginController {
     private JWSUtil jwsUtil;
 
     @RolesAllowed({"ROLE_ADMIN", "ROLE_USER"})
-    @RequestMapping(value={"/", "/login"}, method = RequestMethod.GET)
-    public ModelAndView login(){
+    @RequestMapping(value = {"/", "/login"}, method = RequestMethod.GET)
+    public ModelAndView login() {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("login");
         return modelAndView;
     }
 
     @RolesAllowed({"ROLE_ADMIN", "ROLE_USER"})
-    @RequestMapping(value="/registration", method = RequestMethod.GET)
-    public ModelAndView registration(){
+    @RequestMapping(value = "/registration", method = RequestMethod.GET)
+    public ModelAndView registration() {
         ModelAndView modelAndView = new ModelAndView();
         User user = new User();
         modelAndView.addObject("user", user);
@@ -73,32 +73,33 @@ public class LoginController {
     }
 
     @RolesAllowed({"ROLE_ADMIN", "ROLE_USER"})
-    @RequestMapping(value="/admin/index", method = RequestMethod.GET)
+    @RequestMapping(value = "/admin/index", method = RequestMethod.GET)
     public ModelAndView home() throws Exception {
         ModelAndView modelAndView = new ModelAndView();
         User user = userService.findOne(1);
         ObjectMapper mapper = new ObjectMapper();
         Map<String, Object> map =
-                mapper.convertValue(user, new TypeReference<Map<String, Object>>() {});
-        JSONObject object  = new JSONObject(map);
+                mapper.convertValue(user, new TypeReference<Map<String, Object>>() {
+                });
+        JSONObject object = new JSONObject(map);
         String signedJSON = jwsUtil.signServer(object);
         System.err.println(signedJSON);
         modelAndView.setViewName("admin/index");
         return modelAndView;
     }
 
-    @RequestMapping(value="/checkStrength", method = RequestMethod.GET)
+    @RequestMapping(value = "/checkStrength", method = RequestMethod.GET)
     public @ResponseBody
-    String checkStrength(@RequestParam String password){
-        if (password.length() >=weak_Strength & password.length() < fear_Strength){
+    String checkStrength(@RequestParam String password) {
+        if (password.length() >= weak_Strength & password.length() < fear_Strength) {
             return "Weak";
-        } else if (password.length() >=fear_Strength & password.length() < strong_Strength){
+        } else if (password.length() >= fear_Strength & password.length() < strong_Strength) {
             return "Fear";
-        } else if (password.length() >=strong_Strength){
+        } else if (password.length() >= strong_Strength) {
             return "Strong";
         }
         return "";
     }
 
-   }
+}
 

@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
-import javax.transaction.Transactional;
+
 import java.util.List;
 
 @Slf4j
@@ -28,20 +28,20 @@ public class BookService {
     }
 
     public Book saveBook(Book book) {
-    //    log.info("A book was saved");
+        //    log.info("A book was saved");
         return bookRepository.save(book);
     }
 
-    public List<Book> getAllBooks(){
-     //   log.info("All books are retrieved");
+    public List<Book> getAllBooks() {
+        //   log.info("All books are retrieved");
         return bookRepository.findAll();
     }
 
-    public Book findOne(int id){
+    public Book findOne(int id) {
         return bookRepository.findOne(id);
     }
 
-    public void deleteById(int id){
+    public void deleteById(int id) {
         //log.info("A book was deleted");
         bookRepository.delete(id);
     }
