@@ -1,0 +1,3 @@
+[submodule "library-for-you"]
+	path = library-for-you
+	url = https://github.com/mrdantutunaru/library-for-you.git
