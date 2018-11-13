@@ -11,6 +11,7 @@ import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.*;
@@ -73,8 +74,10 @@ public class BookControllerRestApi {
     }
 
     @Secured("ROLE_ADMIN")
+    //@RolesAllowed({"ROLE_ADMIN", "ROLE_USER"}) For Swagger.
     @DeleteMapping("/{id}")
-    @ApiOperation(value = "Delete book from the library.", response = Iterable.class)
+    @ResponseStatus(HttpStatus.OK)
+    @ApiOperation(value = "Delete book from the library.")
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "Successfully retrieved list."),
             @ApiResponse(code = 401, message = "You are not authorized."),
@@ -85,22 +88,11 @@ public class BookControllerRestApi {
         Book book = bookRepository.findOne(id);
         if (book==null)
             throw new NoSuchBookToDeleteException();
-        BookDto bookDto = convertToDto(book);
         bookRepository.delete(id);
     }
 
     @Secured("ROLE_ADMIN")
     @PostMapping("")
-//    public ResponseEntity<Object> createStudent(@RequestBody Book book) {
-//        Book savedBook = bookRepository.save(book);
-//
-//        URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}")
-//                .buildAndExpand(savedBook.getIdBook()).toUri();
-//
-//        return ResponseEntity.created(location).build();
-//
-//    }
-
     @ApiOperation(value = "Add a book to the library.", response = Iterable.class)
     public BookDto addBook(@RequestBody BookDto bookDto) throws Exception{
         Book book = convertToEntity(bookDto);
@@ -108,7 +100,8 @@ public class BookControllerRestApi {
         return convertToDto(bookCreated);
     }
 
-    @Secured("ROLE_ADMIN")
+    //@Secured("ROLE_ADMIN")
+    @RolesAllowed({"ROLE_ADMIN", "ROLE_USER"})
     @PutMapping("/{id}")
     @ApiOperation(value = "Update a specific book from the library.", response = Iterable.class)
     @ApiResponses(value = {
@@ -118,20 +111,12 @@ public class BookControllerRestApi {
             @ApiResponse(code = 404, message = "The resource is not found.")
     })
     @ResponseBody
-    public void updateBook(@RequestBody BookDto bookDto, @PathVariable int id) throws ParseException {
-
-//        Optional<Book> studentOptional = bookRepository.findByIdBook(id);
-//
-//        if (!studentOptional.isPresent())
-//            return ResponseEntity.notFound().build();
-//
-//        book.setIdBook(id);
-//
-//        bookRepository.save(book);
-//
-//        return ResponseEntity.noContent().build();
+    public BookDto updateBook(@RequestBody BookDto bookDto) throws ParseException {
+        if (!bookRepository.exists(bookDto.getIdBook()))
+            new NoSuchBookException();
         Book book = convertToEntity(bookDto);
-        bookRepository.save(book);
+        Book bookUpdate = bookRepository.save(book);
+        return convertToDto(bookUpdate);
 
     }
 

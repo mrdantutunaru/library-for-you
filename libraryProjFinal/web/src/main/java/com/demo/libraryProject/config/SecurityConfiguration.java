@@ -51,6 +51,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .antMatchers("/registration").permitAll()
                 //.anyRequest()//allow all urls
                 //.authenticated()//all URLs are allowed by any authenticated user, no role restrictions.
+               // .antMatchers("*/book-controller-rest-api/*","*/swagger-ui.html#/*").hasRole("SWAGGER")
                 .and()
                 .formLogin()//enable form based authentication
                 .loginPage("/login")
@@ -67,6 +68,11 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         http.x509();
 
     }
+
+//    @Autowired
+//    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+//        auth.inMemoryAuthentication().withUser("admin").password("admin").authorities("SWAGGER");
+//    }
 
     @Override
     public void configure(WebSecurity web) throws Exception {
